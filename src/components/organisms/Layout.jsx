@@ -2,11 +2,21 @@ import React, { useState } from 'react'
 import { Outlet, useNavigate } from 'react-router-dom'
 import Header from '@/components/organisms/Header'
 import VideoModal from '@/components/organisms/VideoModal'
-import { useUserList } from '@/hooks/useUserList'
+import ProfileSelector from '@/components/organisms/ProfileSelector'
+import { useUserProfile } from '@/hooks/useUserList'
 
 const Layout = () => {
   const navigate = useNavigate()
-  const { userList, addToList, removeFromList } = useUserList()
+  const { 
+    userList, 
+    addToList, 
+    removeFromList, 
+    currentProfile, 
+    showProfileSelector, 
+    switchProfile, 
+    selectProfile, 
+    setShowProfileSelector 
+  } = useUserProfile()
   const [selectedVideo, setSelectedVideo] = useState(null)
   const [isModalOpen, setIsModalOpen] = useState(false)
 
@@ -39,9 +49,24 @@ const Layout = () => {
     return userList.some(item => item.Id === video.Id)
   }
 
+if (showProfileSelector) {
+    return (
+      <div className="min-h-screen bg-background">
+        <ProfileSelector 
+          onSelectProfile={selectProfile}
+          onClose={() => setShowProfileSelector(false)}
+        />
+      </div>
+    )
+  }
+
   return (
     <div className="min-h-screen bg-background">
-      <Header onSearch={handleSearch} />
+      <Header 
+        onSearch={handleSearch} 
+        currentProfile={currentProfile}
+        onSwitchProfile={switchProfile}
+      />
       
       <main className="pt-20">
         <Outlet context={{
@@ -50,7 +75,8 @@ const Layout = () => {
           onAddToList: handleAddToList,
           onRemoveFromList: handleRemoveFromList,
           isVideoInList,
-          userList
+          userList,
+          currentProfile
         }} />
       </main>
 

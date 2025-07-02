@@ -1,0 +1,72 @@
+[
+  {
+    "Id": 1,
+    "name": "John",
+    "avatar": null,
+    "color": "bg-blue-500",
+    "isKidsProfile": false,
+    "preferences": {
+      "language": "en",
+      "maturityRating": "R",
+      "autoPlay": true
+    },
+    "createdAt": "2024-01-15T10:30:00Z",
+    "lastActive": "2024-01-20T14:22:00Z"
+  },
+  {
+    "Id": 2,
+    "name": "Sarah",
+    "avatar": null,
+    "color": "bg-pink-500",
+    "isKidsProfile": false,
+    "preferences": {
+      "language": "en",
+      "maturityRating": "PG-13",
+      "autoPlay": false
+    },
+    "createdAt": "2024-01-15T10:35:00Z",
+    "lastActive": "2024-01-19T20:15:00Z"
+  },
+  {
+    "Id": 3,
+    "name": "Kids",
+    "avatar": null,
+    "color": "bg-green-500",
+    "isKidsProfile": true,
+    "preferences": {
+      "language": "en",
+      "maturityRating": "G",
+      "autoPlay": true
+    },
+    "createdAt": "2024-01-15T10:40:00Z",
+    "lastActive": "2024-01-18T16:45:00Z"
+  },
+  {
+    "Id": 4,
+    "name": "Michael",
+    "avatar": null,
+    "color": "bg-purple-500",
+    "isKidsProfile": false,
+    "preferences": {
+      "language": "en",
+      "maturityRating": "R",
+      "autoPlay": true
+    },
+    "createdAt": "2024-01-16T09:20:00Z",
+    "lastActive": "2024-01-20T11:30:00Z"
+  },
+  {
+    "Id": 5,
+    "name": "Emma",
+    "avatar": null,
+    "color": "bg-yellow-500",
+    "isKidsProfile": false,
+    "preferences": {
+      "language": "en",
+      "maturityRating": "PG-13",
+      "autoPlay": false
+    },
+    "createdAt": "2024-01-17T14:15:00Z",
+    "lastActive": "2024-01-19T22:10:00Z"
+  }
+]

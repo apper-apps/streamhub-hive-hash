@@ -1,14 +1,16 @@
 import { useState, useEffect } from 'react'
 import { toast } from 'react-toastify'
 
-export const useUserList = () => {
+export const useUserProfile = () => {
   const [userList, setUserList] = useState([])
+  const [currentProfile, setCurrentProfile] = useState(null)
+  const [showProfileSelector, setShowProfileSelector] = useState(false)
 
   useEffect(() => {
     loadUserList()
+    loadCurrentProfile()
   }, [])
-
-  const loadUserList = () => {
+const loadUserList = () => {
     try {
       const savedList = localStorage.getItem('streamhub_user_list')
       if (savedList) {
@@ -16,6 +18,20 @@ export const useUserList = () => {
       }
     } catch (error) {
       console.error('Error loading user list:', error)
+    }
+  }
+
+  const loadCurrentProfile = () => {
+    try {
+      const savedProfile = localStorage.getItem('streamhub_current_profile')
+      if (savedProfile) {
+        setCurrentProfile(JSON.parse(savedProfile))
+      } else {
+        setShowProfileSelector(true)
+      }
+    } catch (error) {
+      console.error('Error loading current profile:', error)
+      setShowProfileSelector(true)
     }
   }
 
@@ -28,6 +44,17 @@ export const useUserList = () => {
     }
   }
 
+  const saveCurrentProfile = (profile) => {
+    try {
+      localStorage.setItem('streamhub_current_profile', JSON.stringify(profile))
+      setCurrentProfile(profile)
+      setShowProfileSelector(false)
+      toast.success(`Switched to ${profile.name}'s profile`)
+    } catch (error) {
+      console.error('Error saving current profile:', error)
+      toast.error('Failed to switch profile')
+    }
+  }
   const addToList = (video) => {
     const isAlreadyInList = userList.some(item => item.Id === video.Id)
     
@@ -60,11 +87,24 @@ export const useUserList = () => {
     toast.success('Your list has been cleared')
   }
 
+const switchProfile = () => {
+    setShowProfileSelector(true)
+  }
+
+  const selectProfile = (profile) => {
+    saveCurrentProfile(profile)
+  }
+
   return {
     userList,
     addToList,
     removeFromList,
     isInList,
-    clearList
+    clearList,
+    currentProfile,
+    showProfileSelector,
+    switchProfile,
+    selectProfile,
+    setShowProfileSelector
   }
 }

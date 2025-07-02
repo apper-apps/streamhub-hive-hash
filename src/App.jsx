@@ -6,16 +6,17 @@ import Home from '@/components/pages/Home'
 import Browse from '@/components/pages/Browse'
 import Search from '@/components/pages/Search'
 import MyList from '@/components/pages/MyList'
-
+import ProfileSelector from '@/components/organisms/ProfileSelector'
 function App() {
   return (
     <div className="min-h-screen bg-background text-accent">
       <Routes>
-        <Route path="/" element={<Layout />}>
+<Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="browse" element={<Browse />} />
           <Route path="search" element={<Search />} />
           <Route path="my-list" element={<MyList />} />
+          <Route path="profiles" element={<ProfileSelector />} />
         </Route>
       </Routes>
       
