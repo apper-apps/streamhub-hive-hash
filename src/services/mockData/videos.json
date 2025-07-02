@@ -1,0 +1,222 @@
+[
+  {
+    "Id": 1,
+    "title": "The Dark Knight",
+    "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+    "thumbnail": "https://images.unsplash.com/photo-1518675219903-c682c4b16b1d?w=800&h=450&fit=crop",
+    "duration": 152,
+    "genre": ["Action", "Crime", "Drama"],
+    "rating": 9.0,
+    "year": 2008,
+    "type": "movie"
+  },
+  {
+    "Id": 2,
+    "title": "Stranger Things",
+    "description": "In 1980s Indiana, a group of young friends witness supernatural forces and secret government exploits. As they search for answers, the children unravel a series of extraordinary mysteries.",
+    "thumbnail": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=800&h=450&fit=crop",
+    "duration": 50,
+    "genre": ["Drama", "Fantasy", "Horror"],
+    "rating": 8.7,
+    "year": 2016,
+    "type": "series"
+  },
+  {
+    "Id": 3,
+    "title": "Avengers: Endgame",
+    "description": "After the devastating events of Avengers: Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions.",
+    "thumbnail": "https://images.unsplash.com/photo-1635805737707-575885ab0820?w=800&h=450&fit=crop",
+    "duration": 181,
+    "genre": ["Action", "Adventure", "Drama"],
+    "rating": 8.4,
+    "year": 2019,
+    "type": "movie"
+  },
+  {
+    "Id": 4,
+    "title": "The Office",
+    "description": "A mockumentary on a group of typical office workers, where the workday consists of ego clashes, inappropriate behavior, and tedium.",
+    "thumbnail": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?w=800&h=450&fit=crop",
+    "duration": 22,
+    "genre": ["Comedy"],
+    "rating": 8.9,
+    "year": 2005,
+    "type": "series"
+  },
+  {
+    "Id": 5,
+    "title": "Inception",
+    "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+    "thumbnail": "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=800&h=450&fit=crop",
+    "duration": 148,
+    "genre": ["Action", "Sci-Fi", "Thriller"],
+    "rating": 8.8,
+    "year": 2010,
+    "type": "movie"
+  },
+  {
+    "Id": 6,
+    "title": "Breaking Bad",
+    "description": "A high school chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine in order to secure his family's future.",
+    "thumbnail": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=800&h=450&fit=crop",
+    "duration": 47,
+    "genre": ["Crime", "Drama", "Thriller"],
+    "rating": 9.5,
+    "year": 2008,
+    "type": "series"
+  },
+  {
+    "Id": 7,
+    "title": "Pulp Fiction",
+    "description": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+    "thumbnail": "https://images.unsplash.com/photo-1489599349619-7f6b4e0506c5?w=800&h=450&fit=crop",
+    "duration": 154,
+    "genre": ["Crime", "Drama"],
+    "rating": 8.9,
+    "year": 1994,
+    "type": "movie"
+  },
+  {
+    "Id": 8,
+    "title": "Game of Thrones",
+    "description": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
+    "thumbnail": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=450&fit=crop",
+    "duration": 57,
+    "genre": ["Action", "Adventure", "Drama"],
+    "rating": 8.4,
+    "year": 2011,
+    "type": "series"
+  },
+  {
+    "Id": 9,
+    "title": "The Matrix",
+    "description": "A computer programmer is led to fight an underground war against powerful computers who have constructed his entire reality with a system called the Matrix.",
+    "thumbnail": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=800&h=450&fit=crop",
+    "duration": 136,
+    "genre": ["Action", "Sci-Fi"],
+    "rating": 8.7,
+    "year": 1999,
+    "type": "movie"
+  },
+  {
+    "Id": 10,
+    "title": "Friends",
+    "description": "Follows the personal and professional lives of six twenty to thirty-something-year-old friends living in Manhattan.",
+    "thumbnail": "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?w=800&h=450&fit=crop",
+    "duration": 22,
+    "genre": ["Comedy", "Romance"],
+    "rating": 8.9,
+    "year": 1994,
+    "type": "series"
+  },
+  {
+    "Id": 11,
+    "title": "The Shawshank Redemption",
+    "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+    "thumbnail": "https://images.unsplash.com/photo-1489599349619-7f6b4e0506c5?w=800&h=450&fit=crop",
+    "duration": 142,
+    "genre": ["Drama"],
+    "rating": 9.3,
+    "year": 1994,
+    "type": "movie"
+  },
+  {
+    "Id": 12,
+    "title": "The Crown",
+    "description": "Follows the political rivalries and romance of Queen Elizabeth II's reign and the events that shaped the second half of the twentieth century.",
+    "thumbnail": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=450&fit=crop",
+    "duration": 58,
+    "genre": ["Biography", "Drama", "History"],
+    "rating": 8.6,
+    "year": 2016,
+    "type": "series"
+  },
+  {
+    "Id": 13,
+    "title": "Interstellar",
+    "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+    "thumbnail": "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=800&h=450&fit=crop",
+    "duration": 169,
+    "genre": ["Adventure", "Drama", "Sci-Fi"],
+    "rating": 8.6,
+    "year": 2014,
+    "type": "movie"
+  },
+  {
+    "Id": 14,
+    "title": "The Mandalorian",
+    "description": "The travels of a lone bounty hunter in the outer reaches of the galaxy, far from the authority of the New Republic.",
+    "thumbnail": "https://images.unsplash.com/photo-1635805737707-575885ab0820?w=800&h=450&fit=crop",
+    "duration": 40,
+    "genre": ["Action", "Adventure", "Sci-Fi"],
+    "rating": 8.7,
+    "year": 2019,
+    "type": "series"
+  },
+  {
+    "Id": 15,
+    "title": "Parasite",
+    "description": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+    "thumbnail": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=800&h=450&fit=crop",
+    "duration": 132,
+    "genre": ["Comedy", "Drama", "Thriller"],
+    "rating": 8.5,
+    "year": 2019,
+    "type": "movie"
+  },
+  {
+    "Id": 16,
+    "title": "Black Mirror",
+    "description": "An anthology series exploring a twisted, high-tech multiverse where humanity's greatest innovations and darkest instincts collide.",
+    "thumbnail": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=800&h=450&fit=crop",
+    "duration": 60,
+    "genre": ["Drama", "Sci-Fi", "Thriller"],
+    "rating": 8.8,
+    "year": 2011,
+    "type": "series"
+  },
+  {
+    "Id": 17,
+    "title": "Joker",
+    "description": "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime.",
+    "thumbnail": "https://images.unsplash.com/photo-1518675219903-c682c4b16b1d?w=800&h=450&fit=crop",
+    "duration": 122,
+    "genre": ["Crime", "Drama", "Thriller"],
+    "rating": 8.4,
+    "year": 2019,
+    "type": "movie"
+  },
+  {
+    "Id": 18,
+    "title": "The Witcher",
+    "description": "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.",
+    "thumbnail": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=450&fit=crop",
+    "duration": 60,
+    "genre": ["Action", "Adventure", "Drama"],
+    "rating": 8.2,
+    "year": 2019,
+    "type": "series"
+  },
+  {
+    "Id": 19,
+    "title": "Spider-Man: Into the Spider-Verse",
+    "description": "Teen Miles Morales becomes the Spider-Man of his universe, and must join with five spider-powered individuals from other dimensions to stop a threat for all realities.",
+    "thumbnail": "https://images.unsplash.com/photo-1635805737707-575885ab0820?w=800&h=450&fit=crop",
+    "duration": 117,
+    "genre": ["Animation", "Action", "Adventure"],
+    "rating": 8.4,
+    "year": 2018,
+    "type": "movie"
+  },
+  {
+    "Id": 20,
+    "title": "Ozark",
+    "description": "A financial advisor drags his family from Chicago to the Missouri Ozarks, where he must launder money to appease a drug boss.",
+    "thumbnail": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=800&h=450&fit=crop",
+    "duration": 60,
+    "genre": ["Crime", "Drama", "Thriller"],
+    "rating": 8.4,
+    "year": 2017,
+    "type": "series"
+  }
+]
